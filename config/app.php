@@ -78,7 +78,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'artcultesaku'),
+	'key' => env('APP_KEY', 'artcultestudioecommerce'),
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -145,6 +145,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		// optional
+		'Illuminate\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -192,7 +194,8 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-
+		'Form'		=> 'Illuminate\Html\FormFacade', 
+		'Html'		=> 'Illuminate\Html\HtmlFacade',
 	],
 
 ];

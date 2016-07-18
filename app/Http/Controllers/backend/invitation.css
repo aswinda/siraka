@@ -1,0 +1,7 @@
+@font-face {
+   font-family: sarina;
+   src: url(../fonts/Sarina/Sarina-Regular.tff);
+}
+
+div.title {
+    font-family: sarina;
